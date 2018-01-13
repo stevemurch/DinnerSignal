@@ -12,6 +12,9 @@
 		AA4BC9CD2007EFD000796F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4BC9CB2007EFD000796F22 /* Main.storyboard */; };
 		AA4BC9CF2007EFD000796F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BC9CE2007EFD000796F22 /* Assets.xcassets */; };
 		AA4BC9D22007EFD000796F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4BC9D02007EFD000796F22 /* LaunchScreen.storyboard */; };
+		AA85D257200803C70097442E /* clock_chimes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA85D256200803C70097442E /* clock_chimes.mp3 */; };
+		AA85D25920080D010097442E /* kitchen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA85D25820080D010097442E /* kitchen.jpg */; };
+		AA85D25B200A8C520097442E /* SDMNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85D25A200A8C520097442E /* SDMNetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AA4BC9CE2007EFD000796F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4BC9D12007EFD000796F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA4BC9D32007EFD000796F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA85D256200803C70097442E /* clock_chimes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clock_chimes.mp3; sourceTree = "<group>"; };
+		AA85D25820080D010097442E /* kitchen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitchen.jpg; sourceTree = "<group>"; };
+		AA85D25A200A8C520097442E /* SDMNetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDMNetworkHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		AA4BC9C62007EFD000796F22 /* DinnerSignal */ = {
 			isa = PBXGroup;
 			children = (
+				AA85D256200803C70097442E /* clock_chimes.mp3 */,
 				AA4BC9C72007EFD000796F22 /* AppDelegate.swift */,
 				AA4BC9C92007EFD000796F22 /* ViewController.swift */,
 				AA4BC9CB2007EFD000796F22 /* Main.storyboard */,
 				AA4BC9CE2007EFD000796F22 /* Assets.xcassets */,
+				AA85D25820080D010097442E /* kitchen.jpg */,
 				AA4BC9D02007EFD000796F22 /* LaunchScreen.storyboard */,
 				AA4BC9D32007EFD000796F22 /* Info.plist */,
+				AA85D25A200A8C520097442E /* SDMNetworkHelper.swift */,
 			);
 			path = DinnerSignal;
 			sourceTree = "<group>";
@@ -125,7 +134,9 @@
 			files = (
 				AA4BC9D22007EFD000796F22 /* LaunchScreen.storyboard in Resources */,
 				AA4BC9CF2007EFD000796F22 /* Assets.xcassets in Resources */,
+				AA85D257200803C70097442E /* clock_chimes.mp3 in Resources */,
 				AA4BC9CD2007EFD000796F22 /* Main.storyboard in Resources */,
+				AA85D25920080D010097442E /* kitchen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA4BC9CA2007EFD000796F22 /* ViewController.swift in Sources */,
+				AA85D25B200A8C520097442E /* SDMNetworkHelper.swift in Sources */,
 				AA4BC9C82007EFD000796F22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
